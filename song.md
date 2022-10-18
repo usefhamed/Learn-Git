@@ -1,0 +1,33 @@
+That Don't Impress Me Much by Shania Twain
+
+I've known a few guys who thought they were pretty [ADJECTIVE]
+But you've got being right down to an art
+You think you're a genius, you drive me up the wall
+You're a regular original, a know-it-all
+
+Oh-oh, you think you're special
+Oh-oh, you think you're something else
+Okay, so you're a [NOUN] scientist
+
+That don't impress me much
+So you got the brains, but have you got the [NOUN]?
+Now, don't get me wrong—yeah, I think you're alright
+But that won't keep me [ADJECTIVE] in the middle of the night
+That don't impress me much
+Uh-huh, yeah, yeah
+
+I never knew a guy who carried a [NOUN] in his pocket
+And a comb up his sleeve—just in case
+And all that extra hold gel in your hair oughta lock it
+’Cause heaven forbid it should fall outta place
+
+Oh-oh, you think you're special
+Oh-oh, you think you're something else
+Okay, so you're [PERSON]
+
+That don't impress me much (Oh, oh, uuh)
+So you got the looks, but have you got the touch?
+Now, don't get me wrong—yeah, I think you're alright
+But that won't keep me warm in the middle of the night
+That don't impress me much
+Yeah
