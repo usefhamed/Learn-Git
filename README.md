@@ -6,8 +6,11 @@ Goal: Practice staging and committing changes
 
 #### A1: Setting up
 
-1. Clone this repository on to your computer.
-2. Once you have cloned it, open up git bash or another command line interface in the folder you created. Type `git status` into your git console. If you are in the right place, then git should print a message like this:
+Pre-requisistes: you have installed Git on your computer, and you have a GitHub account
+
+1. Fork this repository to your own GitHub account. You can follow the instructions [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository). IMPORTANT! Make sure you UNCHECK the checkbox for "Copy the main branch only".
+2. Clone your forked repository on to your computer. To do this, open up git bash or another command line interface. Follow [these instructions](https://docs.github.com/en/get-started/quickstart/fork-a-repo#cloning-your-forked-repository), but only up to step 7.
+3. Once you have cloned it, open up git bash or another command line interface in the folder you created. Type `git status` into your git console. If you are in the right place, then git should print a message like this:
 ``` 
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -53,10 +56,34 @@ Goal: Practice branching
 5. Stage and commit your changes.
 6. Switch back to your main branch. Is your ASCII art still there? Why or why not?
 7. If you created a new branch from main, would it contain the frog? What about if you created a new branch while you were currently in YOUR_ALIAS/addFrog? If it helps you, try it out for yourself.
-8. Create a new branch with a name of your choosing. Then try deleting it. If you deleted it successfully, you should not be able to switch to it. 
+8. Create a new branch with a name of your choosing. Then try deleting it. If you deleted it successfully, you should not be able to switch to it with `git checkout`. 
 
 ## Exercise C
 Goal: Practice pushing and pulling
 
+#### C1: Pushing your frog
+1. Switch back to the branch where you created your frog
+2. Using the commands you just learned, try pushing your frog to a branch on origin with the same name.
+3. Visit your GitHub repo online. If your push was successful, you should see a new branch named "YOUR_ALIAS/addFrog". If you don't see this, ask for help.
+
+#### C2: First pull request
+1. From GitHub, create a pull request to merge your frog branch into the main branch.
+2. Complete the pull request. 
+3. Does your frog appear on main in the origin repo? Does your frog appear on main on your computer?
+4. If the answer to the second question is no, then what should command could you do to change that? (HINT: it will be a git command you can write in git bash or a CLI!)
+
 ## Exercise D
 Goal: Practice merge conflicts, whole workflow 
+
+#### D1: Resolve a merge conflict
+Scenario: 2 different brilliant individuals decided they would spice up this repository by adding some art of the lovable dog named Cheems. But since great minds think alike (and since software engineers have poor communication skills), they both did it at the same time without telling each other, and one of them merged to main - creating a merge conflict which prevents the second one from merging.
+
+Using what you learned, your goal is to solve the merge conflict so that the second person, whose code is on the branch named `evilcheems`, can merge, and so that the following conditions are true:
+- Cheems no longer has his evil eyebrows
+- Both authors are credited for their work
+- The poem in the evilcheems branch remains
+
+HINT: you will need to use `git pull origin main` from within the `evilcheems` branch to bring the merge conflict up on your local repo. From there, solve the conflict, and follow what you know about pull requests to merge it in to main.
+
+#### D2: Practice whole workflow
+Using the Git workflow we just taught you (including branching, committing, pushing, pull requests, and pulling), practice a full cycle of making a change of your choice to this repository. Examples of changes you could make include adding a song2.txt, adding images, or stylizing existing files.
