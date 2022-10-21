@@ -1,3 +1,5 @@
+Hi!
+
 # Learn-Git
 Exercises for learning how to use git. This is part of Tech Start UCalgary's git tutorial. You can see our slides here: https://docs.google.com/presentation/d/1VirWHkI8QHIFB2E71R-vqGcnvhAHgFaG7yQ2FHZ677w/edit?usp=sharing
 
