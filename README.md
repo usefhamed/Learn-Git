@@ -23,7 +23,7 @@ Pre-requisites: you have installed Git on your computer, and you have a GitHub a
     ![Cloning a repo](image-1.png)
    2. Open up git bash, terminal or another command line interface
    3. Type `git clone` then copy the link in, then hit enter
-3. Once you have cloned it, open up git bash or another command line interface in the folder you created. Type `git status` into your git console. If you are in the right place, then git should print a message like this:
+3. Once you have cloned it, `cd` in the folder you created (`cd Learn-Git`). Type `git status` into your git console. If you are in the right place, then git should print a message like this:
 
 ```bash
 On branch main
@@ -36,9 +36,9 @@ Once you see this output, you're good to continue!
 
 ### A2: First commit
 
-1. Edit the file called `song.md`. There are multiple blank spots - denoted by the brackets with capitalized words like [NOUN]. Fill in these spots with the words of your choosing. Save it. Type `git status` - confirm that resume.md shows up as a "unstaged change" before continuing.
+1. Edit the file called `song.txt`. There are multiple blank spots - denoted by the brackets with capitalized words like [NOUN]. Fill in these spots with the words of your choosing. Save it. Type `git status` - confirm that `song.txt` shows up as a "unstaged change" before continuing.
 2. Follow the process we outlined in the slides to add this change and create a commit for it. Name your commit "Fill in the blanks". Type `git status` afterwards - you should see the same "nothing to commit" message as in [A1](#a1-setting-up), but this time your file is saved with the changes you made.
-3. Replace the first line of `song.md` with a bunch of garbage (ex: `iadjnigb21ehqpe;aifw3thr2npq;aneflr`). Then, stage your change, but don't commit it. Verify this with `git status`: you should see the file listed under staged changes.
+3. Replace the first line of `song.txt` with a bunch of garbage (ex: `iadjnigb21ehqpe;aifw3thr2npq;aneflr`). Then, stage your change, but don't commit it. Verify this with `git status`: you should see the file listed under staged changes.
 4. Use the commands we learnt to take away the change from the staging area *without getting rid of the change*. Use `git status` to verify this worked (it should not be in staged files anymore, but you should still see your nonsense in the file itself). This means if you made other commits now, they would not include your change, but it's still there if you need it!
 5. Use the commands we learnt to get rid of your change entirely, restoring the file to how it was at the most recent commit. Use `git status` to verify this.
 
@@ -61,7 +61,7 @@ Once you see this output, you're good to continue!
 1. Pick a short alias for yourself. For example, if your name was Dwayne Johnson, your alias could be dwayne, dwajo, or therock.
 2. Create a new branch called `YOUR_ALIAS_HERE/addFrog`. ex: `dwayne/addFrog`
 3. Switch to that branch. Make sure you are on that branch (type `git status`)
-4. Add the following ASCII art at the end of `song.md`, or add any ASCII art of your choosing:
+4. Add the following ASCII art at the end of `song.txt`, or add any ASCII art of your choosing:
 
 ```ascii
             _   _
@@ -90,7 +90,7 @@ Once you see this output, you're good to continue!
 
 ### C2: First pull request
 
-1. From GitHub, create a pull request to merge your frog branch into the main branch.
+1. From GitHub, create a pull request to merge your frog branch into the main branch. Make sure you're merging into the main branch of **your** repository, not the Tech Start one.
 2. Complete the pull request.
 3. Does your frog appear on main in the origin repo? Does your frog appear on main on your computer?
 4. If the answer to the second question is no, then what should command could you do to change that?
@@ -108,6 +108,8 @@ Using what you learned, your goal is to solve the merge conflict so that the sec
 - Cheems no longer has his evil eyebrows
 - Both authors are credited for their work
 - The poem in the evilcheems branch remains
+
+Remember, use `git status` to confirm if the merge conflict is gone.
 
 HINT: you will need to use `git pull origin main` from within the `evilcheems` branch to bring the merge conflict up on your local repo. From there, solve the conflict, and follow what you know about pull requests to merge it in to main.
 
